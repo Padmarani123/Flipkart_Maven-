@@ -16,12 +16,15 @@ public class LoginPage extends Util1{
 	
 	//WebElements	
 	@FindBy(xpath="(//input[@type='text'])[2]")
+	
 	private WebElement emailField;
 	
 	@FindBy(xpath="//input[@type='password']")
+	
 	private WebElement passwordField;
 	
 	@FindBy(xpath="(//button[@type='submit'])[2]")
+	
 	private WebElement loginBtn;
 	
 	
